@@ -1,0 +1,13 @@
+<library name="HLTAnalysisEGMTune_plugins" file="*.cc">
+  <use name="FWCore/Framework"/>
+  <use name="FWCore/ParameterSet"/>
+  <use name="FWCore/MessageLogger"/>
+  <use name="DataFormats/Common"/>
+  <use name="DataFormats/EgammaReco"/>
+  <use name="HLTrigger/HLTcore"/>
+  <use name="PhysicsTools/UtilAlgos"/>
+  <use name="DataFormats/HepMCCandidate" />
+  <use name="SimDataFormats/GeneratorProducts" />
+  <use name="root" />
+  <flags EDM_PLUGIN="1" />
+</library>
